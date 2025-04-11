@@ -51,7 +51,7 @@ i {
 
 .nav-top {
     position: absolute;
-    width: 1000%;
+    width: 100%;
     height: 300px;
     border-radius: 10px;
     display: none;
@@ -158,6 +158,7 @@ i {
 .col > div {
     flex: 1;
     padding: 10px 15px;
+    max-width: 300px;
 }
 
 .col::before {
